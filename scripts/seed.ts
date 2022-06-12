@@ -18,6 +18,7 @@ export default async () => {
       { name: 'jackie', email: 'jackie@example.com' },
       { name: 'bob', email: 'bob@example.com' },
     ]
+
     console.log(
       "\nUsing the default './scripts/seed.{js,ts}' template\nEdit the file to add seed data\n"
     )
