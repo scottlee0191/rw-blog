@@ -7,15 +7,15 @@
 // 'src/pages/HomePage/HomePage.js'         -> HomePage
 // 'src/pages/Admin/BooksPage/BooksPage.js' -> AdminBooksPage
 
-import {Router, Route, Set, Private} from '@redwoodjs/router'
+import { Router, Route, Set, Private } from '@redwoodjs/router'
 import PostsLayout from 'src/layouts/PostsLayout'
 import BlogLayout from 'src/layouts/BlogLayout/BlogLayout'
 import ArticlePage from './pages/ArticlePage/ArticlePage'
 import ContractPage from './pages/ContractPage/ContractPage'
 import LoginPage from './pages/LoginPage/LoginPage'
 import SignupPage from './pages/SignupPage/SignupPage'
-import ForgotPasswordPage from "src/pages/ForgotPasswordPage/ForgotPasswordPage";
-import ResetPasswordPage from "src/pages/ResetPasswordPage/ResetPasswordPage";
+import ForgotPasswordPage from 'src/pages/ForgotPasswordPage/ForgotPasswordPage'
+import ResetPasswordPage from 'src/pages/ResetPasswordPage/ResetPasswordPage'
 
 const Routes = () => {
   return (

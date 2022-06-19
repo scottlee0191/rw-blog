@@ -4,9 +4,9 @@ import ContactForm from 'src/components/ContactForm/ContactForm'
 const ContractPage = () => {
   return (
     <>
-      <MetaTags title="Contract" description="Contract page"/>
+      <MetaTags title="Contract" description="Contract page" />
 
-      <ContactForm/>
+      <ContactForm />
     </>
   )
 }
