@@ -8,6 +8,11 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
 /**
  * END --- SETUP TAILWINDCSS EDIT
  */
+
+.error {
+  @apply text-red-500 border-red-500 focus:ring-0;
+}
